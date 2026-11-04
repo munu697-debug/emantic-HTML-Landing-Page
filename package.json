@@ -1,10 +1,10 @@
 {
-  "name": "semantic-html5-landing-page",
+  "name": "motion-i-landing-page",
   "version": "1.0.0",
-  "description": "Accessible, semantic HTML5 portfolio landing page",
+  "description": "MOTION I — Premium Web Development Company Landing Page",
   "type": "module",
-  "main": "server.mjs",
   "scripts": {
+    "build": "echo 'Static deployment ready'",
     "dev": "node server.mjs",
     "start": "node server.mjs",
     "test": "node test-semantic.js"
@@ -14,8 +14,8 @@
     "semantic-html",
     "accessibility",
     "wcag",
-    "portfolio"
+    "motion-i"
   ],
-  "author": "Alex Rivera",
+  "author": "Munavvir",
   "license": "MIT"
 }
