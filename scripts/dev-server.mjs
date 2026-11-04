@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const ROOT_DIR = path.resolve(__dirname, '..');
 
 const PORT = process.env.PORT || 3000;
 
@@ -23,9 +24,9 @@ const MIME_TYPES = {
 
 function resolveExistingPath(safePath) {
   const candidates = [
-    path.join(__dirname, safePath),
+    path.join(ROOT_DIR, safePath),
     path.join(process.cwd(), safePath),
-    path.join(process.cwd(), 'motion-i-landing-page', safePath),
+    path.join(ROOT_DIR, 'motion-i-landing-page', safePath),
   ];
 
   for (const c of candidates) {

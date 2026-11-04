@@ -4,9 +4,9 @@
   "description": "MOTION I — Premium Web Development Company Landing Page",
   "type": "module",
   "scripts": {
-    "build": "echo 'Static deployment ready'",
-    "dev": "node server.mjs",
-    "start": "node server.mjs",
+    "build": "echo 'Static HTML build ready'",
+    "dev": "node scripts/dev-server.mjs",
+    "start": "node scripts/dev-server.mjs",
     "test": "node test-semantic.js"
   },
   "keywords": [
