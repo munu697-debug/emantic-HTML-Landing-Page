@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 380" width="540" height="380" role="img" aria-label="Abstract geometric structure illustrating MOTION I brand principles: Innovation, Precision, and Growth">
+  <defs>
+    <linearGradient id="abBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="cardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B"/>
+      <stop offset="100%" stop-color="#0F0F11"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="540" height="380" rx="16" fill="#0D0D0D" stroke="#27272A" stroke-width="1"/>
+
+  <!-- Three Interconnected Floating Monoliths -->
+  <!-- Principle 1: Innovation -->
+  <g transform="translate(40, 50)">
+    <rect width="210" height="130" rx="10" fill="url(#cardDark)" stroke="#3B82F6" stroke-width="1.5"/>
+    <rect x="20" y="20" width="36" height="36" rx="8" fill="#1E3A8A"/>
+    <text x="38" y="44" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="18" font-weight="900" text-anchor="middle">01</text>
+    <text x="70" y="43" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="800">Innovation</text>
+    <text x="20" y="85" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11.5">Pioneering creative engineering and boundary-pushing experiences.</text>
+  </g>
+
+  <!-- Principle 2: Precision -->
+  <g transform="translate(290, 50)">
+    <rect width="210" height="130" rx="10" fill="url(#cardDark)" stroke="#3B82F6" stroke-width="1.5"/>
+    <rect x="20" y="20" width="36" height="36" rx="8" fill="#1E3A8A"/>
+    <text x="38" y="44" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="18" font-weight="900" text-anchor="middle">02</text>
+    <text x="70" y="43" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="800">Precision</text>
+    <text x="20" y="85" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11.5">Meticulous architecture, pixel accuracy, and robust code standards.</text>
+  </g>
+
+  <!-- Principle 3: Growth -->
+  <g transform="translate(165, 210)">
+    <rect width="210" height="130" rx="10" fill="url(#cardDark)" stroke="#2563EB" stroke-width="1.5"/>
+    <rect x="20" y="20" width="36" height="36" rx="8" fill="#1E3A8A"/>
+    <text x="38" y="44" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="18" font-weight="900" text-anchor="middle">03</text>
+    <text x="70" y="43" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="800">Growth</text>
+    <text x="20" y="85" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11.5">Transforming ventures into high-converting industry icons.</text>
+  </g>
+
+  <!-- Connecting Lines -->
+  <line x1="250" y1="115" x2="290" y2="115" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="145" y1="180" x2="215" y2="210" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="395" y1="180" x2="325" y2="210" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,4"/>
+</svg>

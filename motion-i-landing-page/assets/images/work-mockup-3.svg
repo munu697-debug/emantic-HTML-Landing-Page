@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Mockup of Vertex Capital global FinTech banking platform built by MOTION I">
+  <defs>
+    <linearGradient id="wm3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022C22"/>
+      <stop offset="50%" stop-color="#064E3B"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="300" rx="12" fill="#0A0A0A" stroke="#27272A" stroke-width="1.5"/>
+  <rect x="0" y="0" width="480" height="36" rx="12" fill="#141416"/>
+  <circle cx="20" cy="18" r="4" fill="#EF4444"/>
+  <circle cx="34" cy="18" r="4" fill="#F59E0B"/>
+  <circle cx="48" cy="18" r="4" fill="#10B981"/>
+  <rect x="120" y="8" width="240" height="20" rx="4" fill="#27272A"/>
+  <text x="240" y="22" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">vertexcapital.global/trade</text>
+
+  <!-- Credit Card Hologram -->
+  <rect x="30" y="60" width="200" height="120" rx="10" fill="url(#wm3Grad)" stroke="#10B981" stroke-width="1.5"/>
+  <text x="50" y="85" fill="#34D399" font-family="system-ui, sans-serif" font-size="12" font-weight="900">VERTEX BLACK</text>
+  <rect x="50" y="100" width="28" height="20" rx="3" fill="#FBBF24"/>
+  <text x="50" y="155" fill="#FFFFFF" font-family="monospace" font-size="13" letter-spacing="2">&bull;&bull;&bull;&bull; 8892</text>
+  <text x="180" y="165" fill="#A7F3D0" font-family="system-ui, sans-serif" font-size="9">EXP 11/30</text>
+
+  <!-- Transaction List -->
+  <rect x="250" y="60" width="200" height="215" rx="10" fill="#18181B" stroke="#27272A" stroke-width="1"/>
+  <text x="270" y="85" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Recent Liquidity</text>
+  
+  <rect x="265" y="100" width="170" height="32" rx="6" fill="#27272A"/>
+  <text x="275" y="120" fill="#E4E4E7" font-family="system-ui, sans-serif" font-size="10">London Stock Exch</text>
+  <text x="425" y="120" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">+$420,000</text>
+
+  <rect x="265" y="140" width="170" height="32" rx="6" fill="#27272A"/>
+  <text x="275" y="160" fill="#E4E4E7" font-family="system-ui, sans-serif" font-size="10">Tokyo Treasury</text>
+  <text x="425" y="160" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">+$185,500</text>
+
+  <rect x="265" y="180" width="170" height="32" rx="6" fill="#27272A"/>
+  <text x="275" y="200" fill="#E4E4E7" font-family="system-ui, sans-serif" font-size="10">Zurich Private Vault</text>
+  <text x="425" y="200" fill="#10B981" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">+$950,000</text>
+
+  <rect x="30" y="200" width="200" height="75" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1"/>
+  <text x="45" y="225" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">Institutional Grade</text>
+  <text x="45" y="252" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="900">Zero Latency</text>
+</svg>

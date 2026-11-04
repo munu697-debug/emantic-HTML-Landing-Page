@@ -1,0 +1,21 @@
+{
+  "name": "semantic-html5-landing-page",
+  "version": "1.0.0",
+  "description": "Accessible, semantic HTML5 portfolio landing page",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node test-semantic.js"
+  },
+  "keywords": [
+    "html5",
+    "semantic-html",
+    "accessibility",
+    "wcag",
+    "portfolio"
+  ],
+  "author": "Alex Rivera",
+  "license": "MIT"
+}

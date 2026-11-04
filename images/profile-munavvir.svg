@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Portrait illustration of Munavvir">
+  <defs>
+    <linearGradient id="m-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="avatarFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffedd5"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="320" height="320" rx="28" fill="url(#m-bg)"/>
+  
+  <!-- Subtle decorative rings -->
+  <circle cx="270" cy="50" r="90" fill="#ffffff" opacity="0.08"/>
+  <circle cx="40" cy="280" r="70" fill="#ffffff" opacity="0.06"/>
+
+  <g filter="url(#softShadow)">
+    <!-- Shoulders / Hoodie -->
+    <path d="M 60 270 C 60 190 260 190 260 270 Z" fill="url(#shirtGrad)"/>
+    <path d="M 120 210 L 160 250 L 200 210 Z" fill="#4338ca"/>
+
+    <!-- Neck -->
+    <rect x="142" y="155" width="36" height="30" rx="8" fill="#fdba74"/>
+
+    <!-- Head -->
+    <ellipse cx="160" cy="120" rx="48" ry="56" fill="url(#avatarFace)"/>
+
+    <!-- Hair -->
+    <path d="M 112 115 C 112 70 208 70 208 115 C 205 92 185 80 160 80 C 130 80 115 95 112 115 Z" fill="#0f172a"/>
+
+    <!-- Modern Glasses -->
+    <rect x="126" y="110" width="28" height="20" rx="6" fill="#0f172a" fill-opacity="0.1" stroke="#0f172a" stroke-width="3"/>
+    <rect x="166" y="110" width="28" height="20" rx="6" fill="#0f172a" fill-opacity="0.1" stroke="#0f172a" stroke-width="3"/>
+    <line x1="154" y1="120" x2="166" y2="120" stroke="#0f172a" stroke-width="3"/>
+
+    <!-- Friendly Smile -->
+    <path d="M 148 148 Q 160 160 172 148" fill="none" stroke="#9a3412" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Code Badge -->
+    <rect x="85" y="270" width="150" height="32" rx="16" fill="#ffffff"/>
+    <text x="160" y="291" fill="#4f46e5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" text-anchor="middle">&lt;Munavvir /&gt;</text>
+  </g>
+</svg>
